@@ -589,7 +589,7 @@ lynx -dump http://isildur.k22.com:8002
 lynx -dump http://anarion.k22.com:8003
 ```
 
-### **Soal 10: Penyampaian Ulang**
+### **Soal 10**
 
 > Pemimpin bijak Elros ditugaskan untuk mengkoordinasikan pertahanan Númenor. Konfigurasikan nginx di **Elros** untuk bertindak sebagai **reverse proxy**. Buat _upstream_ bernama **kesatria_numenor** yang berisi alamat ketiga _worker_ (Elendil, Isildur, Anarion). Atur agar semua permintaan yang datang ke domain **elros.K55.com** diteruskan secara merata menggunakan algoritma **Round Robin** ke _backend_.
 
