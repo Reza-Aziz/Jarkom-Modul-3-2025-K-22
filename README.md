@@ -14,6 +14,7 @@
 ### Soal 1
 
 > Di awal Zaman Kedua, setelah kehancuran Beleriand, para Valar menugaskan untuk membangun kembali jaringan komunikasi antar kerajaan. Para Valar menyalakan Minastir, Aldarion, Erendis, Amdir, Palantir, Narvi, Elros, Pharazon, Elendil, Isildur, Anarion, Galadriel, Celeborn, Oropher, Miriel, Amandil, Gilgalad, Celebrimbor, Khamul, dan pastikan setiap node (selain Durin sang penghubung antar dunia) dapat sementara berkomunikasi dengan Valinor/Internet (nameserver 192.168.122.1) untuk menerima instruksi awal.
+![alt text](assets/soal1.png)
 
 ### **Soal 2**
 
@@ -114,6 +115,7 @@ lalu restart
 ```c
 service isc-dhcp-relay restart
 ```
+![alt text](assets/soal2.png)
 
 ### **Soal 3**
 
@@ -381,6 +383,7 @@ Test
 ```c
 lynx http://elendil.K22.com
 ```
+![alt text](assets/soal7.png)
 
 ### **Soal 8**
 
@@ -556,6 +559,7 @@ nano /etc/hosts
 192.222.1.4   Anarion.k22.com
 
 ```
+![alt text](assets/soal8.png)
 
 ### **Soal 9**
 
@@ -588,6 +592,7 @@ lynx -dump http://elendil.k22.com:8001
 lynx -dump http://isildur.k22.com:8002
 lynx -dump http://anarion.k22.com:8003
 ```
+![alt text](assets/soal9.png)
 
 ### **Soal 10**
 
@@ -654,3 +659,4 @@ nano /etc/hosts
 ```c
 curl http://elros.k22.com/api/airing
 ```
+![alt text](assets/soal10.png)
